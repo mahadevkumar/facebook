@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Verification</title>
+    <link rel="icon" type="image/x-icon" href="./../assessts/images/download.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../css/main.css" />
+    <link rel="stylesheet" href="./../css/emailverified.css" />
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-firestore.js"></script>
+    <script>
+           const firebaseConfig = {
+    apiKey: "AIzaSyBfEuzUSGvfRlm1uGQh_JEwSk2V934edPU",
+    authDomain: "main-87b1b.firebaseapp.com",
+    databaseURL: "https://main-87b1b-default-rtdb.firebaseio.com",
+    projectId: "main-87b1b",
+    storageBucket: "main-87b1b.appspot.com",
+    messagingSenderId: "100644024268",
+    appId: "1:100644024268:web:5fcca915d974543fddb769",
+    measurementId: "G-W4DMEYSS1R"
+  };
+     firebase.initializeApp(firebaseConfig);
+  
+       </script>
+</head>
+<body>
+    <div id="container" class="container-fluid" style="height:100vh;">
+        <div class="container-sm-12">
+            <div id="maindiv" class="col-xs-12">
+                <img src="./../assessts/icons/email.png" class="emailverificationicon">
+                <h5 class="emailtitle"> <b>Please Verify Your Email</b> </h5>
+                <p class="useremaildiv"><span>You're almost there! We sent an email to </span><b id="useremail"></b></p>
+                <p style="text-align:center;" class="emailverificationdiscription">Just click on the link in that email to complete signup. If you don't see it, you may need to <b>check your spam</b> folder.</p>
+                <p id="message"></p>
+                <div class="butttonsdiv">
+                    <button  id="resendemail">Resend Email</button> 
+                    <button  id="gotohompage">Confirm</button>
+                </div>
+            </div>
+            </div>
+    </div>
+    </div>
+</body>
+<script src="./../javascript/emailverified.js"></script>
+</html>

@@ -1,0 +1,48 @@
+#container {
+    align-items: flex-start;
+}
+.createpost{
+    background-color: white;
+    padding: 5px;
+}
+#createpostdiv{
+    background-color: #e7ebfe;
+    padding: 11px 12px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 76%;
+    height: 80%;
+}
+
+.nav > div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#postsdiv::-webkit-scrollbar-track {
+    border: 1px solid #cbcbcb;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+#postsdiv::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+#messagediv{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#postsdiv::-webkit-scrollbar-thumb {
+    background-color: #3360f8;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 380px) {
+    .profilepicture {
+        height: 40px;
+        width: 40px;
+    }
+}

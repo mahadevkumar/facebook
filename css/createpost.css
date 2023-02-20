@@ -1,0 +1,67 @@
+#container {
+    align-items: flex-start;
+}
+#createpostdiv{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 14px;
+}
+.container{
+    padding: 0px;
+}
+#message{
+    display: none;
+}
+.createposttitle{
+    font-size: 15px;
+    font-weight: 600;
+}
+#postdata{
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+    padding: 7px;
+    border:1px solid #f0f2f5;
+}
+#imagesforpost{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#uploadbuttonicon{
+    width: 20px;
+}
+#submitbuttondiv{
+    display: flex;
+    justify-content: flex-end;
+}
+#createpostbtn{
+    width: 180px;
+    padding: 5px 0px;
+    border: none;
+    background-color: #3360f9;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius:10px ;
+    color: white;
+}
+#postfiles{
+    display: none;
+}
+.progress{
+    margin-bottom: 10px;
+}
+@media only screen and (max-width:310px){
+    #imagesforpost {
+        font-size: 4vw;
+    }
+    #uploadbuttonicon {
+        width: 15px;
+    }
+}

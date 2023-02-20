@@ -1,0 +1,398 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.maindiv>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maindiv {
+    padding: 30px;
+}
+
+.nav {
+    background-color: #ffffff;
+    margin: 0px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    padding: 7px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.nav>li {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    padding: 9px 26px;
+    color: black;
+    border-radius: 5px;
+}
+
+.icons:hover {
+    color: #3360f9;
+    background-color: #f0f2f5;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    padding: 30px 0px;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+#form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 20px 3%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.inputs {
+    width: 95.5%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #d4d9de;
+    height: 30px;
+    font-size: 15px;
+    padding: 0px 10px;
+    margin: 7px 0px;
+}
+
+.inputs::placeholder {
+    color: #adadad;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.inputsdiv {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.inputstitle {
+    align-self: flex-start;
+    margin-bottom: 0px;
+}
+
+#button {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    background-color: #3360f8;
+    cursor: pointer;
+}
+
+.linkingbutton {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#message {
+    min-height: 30px;
+    font-size: 13px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+}
+
+#postsdiv {
+    overflow: auto;
+    height: 68.5vh;
+}
+
+.heading {
+    background-color: white;
+    border-radius: 6px;
+    padding: 7px 14px;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.post {
+    background-color: white;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.userdetailsdiv {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.postVideo {
+    width: 100%;
+}
+
+.userprofilediv {
+    width: 13%;
+}
+
+.postuserprofile {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.usernameanddetailsdiv {
+    width: 88%;
+    margin-left: 10px;
+}
+
+.postdate {
+    color: black;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.posttext {
+    font-size: 12px;
+    padding: 5px 10px;
+    line-height: 21px;
+}
+
+.impressionsdiv {
+    border: 1px solid #f0f2f5;
+    display: flex;
+    flex-direction: row;
+    border-left: none;
+    border-right: none;
+
+}
+
+#messagediv {
+    display: block;
+}
+
+.likebutton,
+.disklikediv,
+.commentdiv {
+    display: flex;
+    flex-direction: row;
+    width: 37%;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    padding: 7px 10px;
+}
+
+.likebutton {
+    width: 28%;
+    text-decoration: none;
+    background-color: white;
+}
+
+.impressionstitle {
+    margin-left: 6px;
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+}
+
+.largeprofilepicture {
+    height: 130px;
+    width: 130px;
+}
+
+.currentusercommentdiv {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.progress {
+    margin: 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.profilepicture {
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+
+}
+
+.currentusercommentinput {
+    background: #f0f2f5;
+    width: 88%;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 80%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+.currentusercommentsendbutton {
+    border: none;
+    border-radius: 35px;
+    background-color: #f0f2f5;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-paper-plane:before {
+    color: #3360f9;
+    font-size: 20px;
+}
+
+#loaderdiv,
+#messagediv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#messagediv>h1 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+#loaderdiv>img {
+    width: 20%;
+}
+
+#usercommentdetailsdiv {
+    width: 80%;
+    background: #f0f2f5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#usercommentdetailsdiv>p {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+#commentusername {
+    font-weight: 600;
+}
+
+#allusercomments {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+@media only screen and (max-width:567px) {
+    .username {
+        font-size: 4vw;
+    }
+
+    .postdate {
+        font-size: 3vw;
+    }
+
+    #container {
+        display: flex;
+        padding: 5px 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #messagediv>h1 {
+        font-size: 8vw;
+    }
+}
+
+@media only screen and (max-width:483px) {
+    .icons {
+        padding: 9px 20px;
+    }
+
+    .largeprofilepicture {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 417px) {
+    .impressionstitle {
+        font-size: 0.7rem;
+    }
+
+    .profilepicture {
+        height: 45px;
+        width: 45px;
+    }
+
+    .impressionstitle {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 372px) {
+    .icons {
+        padding: 7px 10px;
+        font-size: 13px;
+    }
+
+    .largeprofilepicture {
+        height: 80px;
+        width: 80px;
+    }
+
+    .profilepicture {
+        height: 40px;
+        width: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 354px) {
+    .impressionstitle {
+        font-size: 0.4rem;
+    }
+
+    .profilepicture {
+        height: 30px;
+        width: 30px;
+    }
+}

@@ -1,0 +1,95 @@
+#container{
+    align-items: flex-start;
+}
+#users{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 8px;
+    border-radius: 10px;
+    max-height: 80vh;
+    overflow: auto;
+}
+#userdetailsdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #dfdfdf;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.userimg > img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+#data{
+    width: 80%;
+    margin-left: 10px;
+}
+.username{
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.signupdate{
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+#users::-webkit-scrollbar-track {
+    border: 1px solid #cbcbcb;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+#users::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+#users::-webkit-scrollbar-thumb {
+    background-color: #3360f8;
+    border-radius: 10px;
+}
+.dropdown{
+    width: 10%;
+    height: 100%;
+}
+.dropdownbuttons{
+    cursor: pointer;
+    padding: 10px;
+    color: #3360f9;
+}
+#dropdownhide{
+    display: none;
+}
+#loader{
+    width: 200px;
+}
+#userpicturesdetails{
+    position: relative;
+    background-color: white;
+    border: 2px solid #dfdfdf;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 5px;
+}
+#userprofilepicture{
+    border-radius: 50%;
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+}
+#usercoverpicture{
+    margin-bottom: 8%;
+    max-height: 200px;
+}
+@media only screen and (max-width: 560px) {
+    #loader{
+        width: 50%;
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+    <link rel="icon" type="image/x-icon" href="./../assessts/images/download.png">
+
+
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+    apiKey: "AIzaSyBfEuzUSGvfRlm1uGQh_JEwSk2V934edPU",
+    authDomain: "main-87b1b.firebaseapp.com",
+    databaseURL: "https://main-87b1b-default-rtdb.firebaseio.com",
+    projectId: "main-87b1b",
+    storageBucket: "main-87b1b.appspot.com",
+    messagingSenderId: "100644024268",
+    appId: "1:100644024268:web:5fcca915d974543fddb769",
+    measurementId: "G-W4DMEYSS1R"
+  };
+     firebase.initializeApp(firebaseConfig);
+  
+     
+       firebase.auth().signOut().then(() => {
+        window.location.assign("./Login.html")
+        }).catch((error) => {
+            console.log(error.message)
+        });
+      </script>
+</head>
+<body>
+
+</body>
+</html>

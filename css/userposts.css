@@ -1,0 +1,29 @@
+#container {
+    align-items: flex-start;
+}
+#postfilediv{
+    width: 100%;
+}
+.postfile{
+    margin-bottom: 10px;
+}
+#userposts{
+    height: 79vh;
+    overflow: auto;
+}
+#userposts::-webkit-scrollbar-track {
+    border: 1px solid #cbcbcb;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+#userposts::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+#userposts::-webkit-scrollbar-thumb {
+    background-color: #3360f8;
+    border-radius: 10px;
+}
